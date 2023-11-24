@@ -1,0 +1,32 @@
+.container{
+    background-image: linear-gradient(rgb(20, 2, 2),rgb(156, 229, 10));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 15px;
+    width: 30%;
+    border-radius: 5px;
+    color: rgb(31, 31, 31);
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+
+}
+@media only screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+      max-width: 800px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 1025px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
